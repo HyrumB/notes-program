@@ -22,24 +22,6 @@ local function saveToFile(filename, notes)
   end
 end
 
--- function writeToFile(fileName, content)
---     -- Attempt to open the file in write mode ("w")
---     local file = io.open(fileName, "w")
-  
---     -- Check if the file opened successfully
---     if file then
---       -- Write the content to the file
---       io.write(file, content)
-  
---       -- Close the file
---       io.close(file)
-  
---       print("Successfully wrote to file:", fileName)
---     else
---       print("Error: Could not open file:", fileName)
---     end
---   end
-
 -- Function to load notes from a file
 local function pullFromFile(filename)
   local file = io.open(filename, "r")
